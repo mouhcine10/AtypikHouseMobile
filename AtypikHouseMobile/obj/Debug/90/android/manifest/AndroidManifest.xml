@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.1" package="AtypikHouseMobile.AtypikHouseMobile" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <!-- Google Maps for Android v2 requires OpenGL ES v2 -->
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <!-- Necessary for apps that target Android 9.0 or higher -->
+  <uses-library android:name="org.apache.http.legacy" android:required="false" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:icon="@drawable/logo3" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="Acceuil" android:name="md555bf90f58ef3717ef15832df999217f6.Accueil" />
+    <activity android:icon="@drawable/logo3" android:noHistory="true" android:theme="@style/MyTheme.Splash" android:name="md555bf90f58ef3717ef15832df999217f6.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Commentaire" android:name="md555bf90f58ef3717ef15832df999217f6.Commentaire" />
+    <activity android:label="DetailLogement" android:theme="@style/AppTheme" android:name="md555bf90f58ef3717ef15832df999217f6.DetailLogement" />
+    <activity android:label="Messages" android:name="md555bf90f58ef3717ef15832df999217f6.Messages" />
+    <activity android:label="ModifierProfil" android:theme="@style/AppTheme" android:name="md555bf90f58ef3717ef15832df999217f6.ModifierProfil" />
+    <activity android:label="paiement" android:name="md555bf90f58ef3717ef15832df999217f6.paiement" />
+    <activity android:label="ParametreDucompte" android:theme="@style/AppTheme" android:name="md555bf90f58ef3717ef15832df999217f6.ParametreDucompte" />
+    <activity android:label="Profil" android:theme="@style/AppTheme" android:name="md555bf90f58ef3717ef15832df999217f6.Profil" />
+    <activity android:label="Recherche1" android:name="md555bf90f58ef3717ef15832df999217f6.Recherche1" />
+    <activity android:label="Reserver" android:theme="@style/AppTheme" android:name="md555bf90f58ef3717ef15832df999217f6.Reserver" />
+    <activity android:label="resultat" android:name="md555bf90f58ef3717ef15832df999217f6.resultat" />
+    <activity android:label="Historique" android:theme="@style/AppTheme" android:name="md51a39666cee87c195e0bb36907a9dc117.Historique" />
+    <activity android:label="ListDesLogements" android:name="md51a39666cee87c195e0bb36907a9dc117.ListDesLogements" />
+    <activity android:label="Login" android:name="md51a39666cee87c195e0bb36907a9dc117.Login" />
+    <activity android:label="VosHebergement" android:name="md51a39666cee87c195e0bb36907a9dc117.VosHebergement" />
+    <activity android:label="AjouterLogementE1" android:name="md58d1bb8f83d3dcb4eb322e40865132d52.AjouterLogementE1" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="AtypikHouseMobile.AtypikHouseMobile.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.AtypikHouseMobile.AtypikHouseMobile" />
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.cloudrail.si.servicecode.commands.codeRedirect.AuthenticationActivity" />
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  </application>
+</manifest>

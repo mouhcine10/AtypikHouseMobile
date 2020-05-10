@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+
+namespace AtypikHouseMobile.Class
+{
+    class JWTClaim
+    {
+        public string iat;
+        public string exp;
+        public Roles roles;
+        public string email;
+        public string nom;
+        public string adresse;
+        public string prenom; 
+        
+
+    }
+}

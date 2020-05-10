@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayoutGlobal"
+		android:layout_margin="5dp">
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutImage">
+			<ImageView
+				android:src="@drawable/dscf2464"
+				android:layout_width="match_parent"
+				android:layout_height="220dp"
+				android:id="@+id/imageLogement"
+				 />
+		</LinearLayout>
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout4"
+			android:background="@color/material_grey_100">
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1"
+				android:minWidth="25px"
+				android:minHeight="25px">
+				<TextView
+					android:text=" villa"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/textViewtitre" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout2"
+				
+			>
+				<ImageView
+					android:layout_width="50dp"
+					android:layout_height="20dp"
+					android:id="@+id/imageView1"
+					android:src="@drawable/argent" />
+				<TextView
+					android:text="100 €"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/textViewPrix" />
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout3"
+				android:minWidth="25px"
+				android:minHeight="25px">
+				<TextView
+					android:text="Cabane"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:id="@+id/textViewTypeLogement" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

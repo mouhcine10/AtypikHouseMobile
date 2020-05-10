@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">AtypikHouseMobile</string>
+  <string name="action_settings">Settings</string>
+  <string-array name="listLogement">
+    <item>log</item>
+    <item>log</item>
+    <item>log</item>
+    <item>log</item>
+    <item>log</item>
+    <item>log</item>
+    <item>log</item>
+  </string-array>
+
+  </resources>

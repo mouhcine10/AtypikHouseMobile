@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:orientation="vertical"
+	
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayoutGLobal" >
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayoutImage">
+			<ImageView
+				android:src="@android:drawable/ic_menu_gallery"
+				android:layout_width="80dp"
+				android:layout_height="100dp"
+				android:id="@+id/imageViewVoslogement"
+				android:layout_margin="4dp" />
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1">
+				<TextView
+					android:text="titre                                   "
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/textViewtitreVosLogement"
+					android:layout_marginLeft="20dp" />
+				<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/linearLayoutdateAjoute">
+					<TextView
+						android:text="Ajouter le "
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textView1" />
+					<TextView
+						android:text="10/07/2018"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/textViewdateajout" />
+				</LinearLayout>
+			</LinearLayout>
+		
+		</LinearLayout>
+	</LinearLayout>
+
+</LinearLayout>

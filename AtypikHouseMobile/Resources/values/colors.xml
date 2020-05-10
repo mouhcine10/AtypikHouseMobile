@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#C64300</color>
+  <color name="orange">#C64300</color>
+  <color name="trq">#00C2FF</color>
+  <color name="khdar">#04B656</color>
+  
+</resources>
